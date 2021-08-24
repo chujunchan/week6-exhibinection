@@ -1,0 +1,27 @@
+// hero
+.hero{
+    &-bg{
+        background-image: url(../images/ricardo-gomez-angel-UrOZTfXT0h0-unsplash.jpg);
+        height: 480px;
+    }
+}
+
+// subscription
+.subscription{
+    &-bg{
+        background-image: url(../images/wladislaw-peljuchno-Y_f1aHpR1tc-unsplash.jpg);
+        height: 400px;
+    }
+}
+
+// cartList offcanvas
+.cartlist{
+    &-btn{
+        color: $primary;
+        background: $white;
+        &:hover{
+            color: $white;
+            background: $secondary;
+        }
+    }
+}

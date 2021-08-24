@@ -1,0 +1,49 @@
+.img{
+    object-fit: cover;
+    
+    //cartList offcanvas
+    &-cartList{
+        width: 120px;
+        height: 120px;
+    }
+
+    // popular special exhibition
+    &-popular{
+        height: 350px;
+    }
+
+    // product
+    &-product{
+        height: 221px;
+        @include media-breakpoint-up(md) {
+            height: 285px;
+        }
+    }
+
+    //detail
+    &-detail{
+        &-ticket{
+            height: 256px;
+        }
+
+        &-introShort{
+            height: 400px;
+        }
+
+        &-introLong{
+            height: 560px;
+        }
+    }
+
+    //checkout
+    &-checkout{
+        height: 84px;
+    }
+}
+
+.img-hover{
+    &:hover{
+        background: rgba(255,255,255,0.3);
+        transition: .3s;
+    }
+}

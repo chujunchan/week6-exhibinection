@@ -1,0 +1,24 @@
+.nav{
+    &-scroller {
+        height: 3.25rem; /* 隱藏下方捲軸 */
+        overflow-y: hidden;
+    }
+    &-scroller .nav{
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem; /* 隱藏下方捲軸 */
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+    &-link {
+        padding: 14px 16px;
+        &:hover {
+            padding-bottom: 3px;
+            border-bottom: 1px solid $secondary;
+        }
+        &-active {
+            padding-bottom: 3px;
+            border-bottom: 1px solid $secondary;
+        }
+    }
+}

@@ -1,0 +1,16 @@
+.ticket-block{
+    @include media-breakpoint-up(md) {
+        height: 256px;
+    }
+}
+
+.ticket-link{
+    &:hover {
+        padding-bottom: 3px;
+        border-bottom: 1px solid $secondary;
+    }
+    &-active {
+        padding-bottom: 3px;
+        border-bottom: 1px solid $secondary;
+    }
+}

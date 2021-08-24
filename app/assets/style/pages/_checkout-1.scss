@@ -1,0 +1,6 @@
+.total-h{
+  height: calc(100vh - 63.6px - 72.8px - 296.8px);
+  @include media-breakpoint-up(md) {
+    height: calc(100vh - 82px - 84px);
+  }
+}

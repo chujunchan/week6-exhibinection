@@ -1,0 +1,18 @@
+.scrollbar{
+    /*滾動條寬度*/
+    &::-webkit-scrollbar {
+        width: 2px;
+    }
+  
+    /*滾動條本體顏色*/
+    &::-webkit-scrollbar-thumb {
+        border-radius: 150px;
+        background: $secondary;
+    }
+  
+    /*滾動條底色*/
+    &::-webkit-scrollbar-track {
+        border-radius: 0;
+        background: $gray200;
+    }
+}

@@ -1,0 +1,28 @@
+.progress {
+    &-line::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      height: 2px;
+      background-color: $secondary;
+    }
+    &-circle {
+      position: relative;
+      &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 50%;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        border: 1px solid $secondary;
+        background-color: $white;
+        transform: translate(-50%, -35%);
+      }
+      &-checked::before {
+        background-color: $secondary;
+      }
+    }
+  }

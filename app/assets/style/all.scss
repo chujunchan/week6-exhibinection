@@ -1,6 +1,24 @@
 @import "../../../node_modules/bootstrap/scss/functions";
 @import "./helpers/variables";
+@import "./helpers/utilities";
 @import "../../../node_modules/bootstrap/scss/bootstrap";
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&display=swap');
 
-@import './layout/index.scss'
+@import "helpers/base";
+@import "helpers/helpers";
+
+@import "components/img";
+@import "components/btn";
+@import "components/offcanvas";
+@import "components/scrollbar";
+@import "components/nav";
+@import "components/swiper";
+@import "components/progress";
+
+@import "layout/layout";
+
+@import "pages/index";
+@import "pages/product-detail";
+@import "pages/checkout-1";

@@ -1,0 +1,14 @@
+.bgCoverCenter{
+    background-size: cover;
+    background-position: center center;
+}
+
+.meanline::after{
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    background: $dark;
+    top: 0;
+    left: 50%;
+}
