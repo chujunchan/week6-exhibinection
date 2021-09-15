@@ -12,3 +12,10 @@
     top: 0;
     left: 50%;
 }
+
+.h-checkout{
+    min-height: calc(100vh - 63.6px - 72.8px);
+    @include media-breakpoint-up(md) {
+        min-height: calc(100vh - 82px - 84px);
+    }
+}
