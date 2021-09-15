@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined">
     <script src="https://kit.fontawesome.com/14d49e57b0.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./assets/style/all.css">
   </head>
 
@@ -165,7 +165,7 @@
 
     <!-- hero -->
     <section  hidden  >
-      <div class="hero-bg bgCoverCenter d-flex align-items-center">
+      <div class="hero-bg bgCoverCenter d-flex align-items-end align-items-md-center pb-18 pb-md-0">
         <div class="container">
           <div class="row">
             <div class="col-12 col-md-11 offset-md-1">
@@ -240,7 +240,9 @@
                 <div class="d-flex justify-content-between align-items-center mb-1">
                     <div class="d-flex">
                         <h2 class="fs-7 fw-bold">2020 台味設計展</h2>
-                        <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook text-body fs-7 ms-3"></i></a>
+                        <a class="link-black btn-hover-dark" href="https://www.facebook.com/" target="_blank">
+                            <span class="fab fa-facebook fs-7 align-middle ms-3"></span>
+                        </a>
                     </div>
                     <time class="d-md-none fw-medium">01 JUN — 31 OCT</time>
                 </div>
@@ -270,8 +272,8 @@
                         <p class="fw-light mb-2">票種</p>
                         <ul class="list-unstyled d-flex mb-0">
                             <li><a class="ticket-link text-body px-6 px-md-3 px-lg-6" href="#">學生</a></li>
-                            <li><a class="ticket-link ticket-link-active text-body px-md-3 px-lg-6" href="#">全票</a></li>
-                            <li><a class="ticket-link text-body px-md-3 px-lg-6" href="#">愛心</a></li>
+                            <li><a class="ticket-link ticket-link-active text-body px-6 px-md-3 px-lg-6" href="#">全票</a></li>
+                            <li><a class="ticket-link text-body px-6 px-md-3 px-lg-6" href="#">愛心</a></li>
                         </ul>
                     </div>
                     <div class="d-none d-md-block meanline"></div>
@@ -312,7 +314,7 @@
         <h2 class="fs-3 fw-bold mb-2 mb-md-9">猜你也喜歡...</h2>  
         <div class="row">
           <div class="col-12 col-md-11 offset-md-1">
-            <div class="swiper-container mySwiper">
+            <div class="swiper mySwiper">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
                   <div class="card w-100 border-0">
@@ -416,7 +418,7 @@
         <div class="d-flex justify-content-between">
           <div class="d-flex flex-column flex-md-row">
             <h3 class="fs-6 fs-md-5 fw-normal lh-1 me-6">
-              <a class="text-body" href="index.html">EXHIBINECTION</a>
+              <a class="link-black" href="index.html">EXHIBINECTION</a>
             </h3>
             <p class="mb-0">© 2020. All Rights Reserved.</p>
           </div>
@@ -429,7 +431,7 @@
     </footer>
 
     <!-- JS setting -->
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <script src="./assets/js/vendors.js"></script>
     <script src="./assets/js/all.js"></script>
   </body>

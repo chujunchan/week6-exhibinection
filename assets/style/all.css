@@ -18399,6 +18399,16 @@ i {
   left: 50%;
 }
 
+.h-checkout {
+  min-height: calc(100vh - 63.6px - 72.8px);
+}
+
+@media (min-width: 768px) {
+  .h-checkout {
+    min-height: calc(100vh - 82px - 84px);
+  }
+}
+
 .img {
   -o-object-fit: cover;
      object-fit: cover;
@@ -18447,7 +18457,7 @@ i {
 }
 
 .btn-hover-dark:hover {
-  color: #707070;
+  color: #707070 !important;
 }
 
 .btn-hover-lineSecondary {
@@ -18626,16 +18636,6 @@ i {
 .ticket-link-active {
   padding-bottom: 3px;
   border-bottom: 1px solid #E31277;
-}
-
-.total-h {
-  height: calc(100vh - 63.6px - 72.8px - 296.8px);
-}
-
-@media (min-width: 768px) {
-  .total-h {
-    height: calc(100vh - 82px - 84px);
-  }
 }
 
 /*# sourceMappingURL=all.css.map */
